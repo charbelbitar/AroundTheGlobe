@@ -1,0 +1,10 @@
+.booking-list { display: grid; gap: 14px; }
+.booking-card { background: white; border: 1px solid var(--border); border-radius: 20px; padding: 24px; display: grid; grid-template-columns: 1.3fr 1fr auto; gap: 22px; align-items: center; }
+.booking-card h2 { margin: 10px 0 6px; font-size: 20px; }
+.booking-card p { margin: 0; color: var(--muted); }
+.status-badge.confirmed { background: #edf7ef; color: var(--success); }
+.status-badge.cancelled { background: #f3f4f6; color: var(--muted); }
+.booking-details { display: flex; gap: 25px; }
+.booking-details span { display: grid; color: var(--muted); font-size: 12px; }
+.booking-details strong { color: var(--ink); margin-top: 5px; font-size: 13px; }
+

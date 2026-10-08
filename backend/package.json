@@ -1,0 +1,20 @@
+{
+  "name": "around-the-globe-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REST API for the Around The Globe travel agency project",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.17.1",
+    "nodemailer": "^10.0.1"
+  }
+}

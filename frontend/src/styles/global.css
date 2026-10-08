@@ -1,0 +1,14 @@
+/* Central stylesheet: imported once from main.jsx. */
+@import './base.css';
+@import './components.css';
+@import './navbar.css';
+@import './home.css';
+@import './flights.css';
+@import './auth.css';
+@import './bookings.css';
+@import './admin.css';
+@import './footer.css';
+@import './dashboard.css';
+@import './bookings-chart.css';
+@import './responsive.css';
+@import './pagination.css';
